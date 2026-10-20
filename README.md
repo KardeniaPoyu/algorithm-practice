@@ -45,3 +45,15 @@ Each manually maintained solution should start with a short comment containing t
 
 Python files are syntax-checked with `compileall`; C++ files are compiled individually with C++17 by GitHub Actions on every push.
 
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2058-concatenation-of-array](https://github.com/KardeniaPoyu/algorithm-practice/tree/main/2058-concatenation-of-array/) | undefined |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2058-concatenation-of-array](https://github.com/KardeniaPoyu/algorithm-practice/tree/main/2058-concatenation-of-array/) | undefined |
+<!---LeetCode Topics End-->

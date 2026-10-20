@@ -37,7 +37,7 @@ Each manually maintained solution should start with a short comment containing t
 
 | Platform | Solved | Target |
 |---|---:|---:|
-| LeetCode | 0 | 150 |
+| LeetCode | 1 | 150 |
 | Codeforces | 0 | 100 |
 | AtCoder | 0 | 50 |
 
@@ -51,9 +51,9 @@ Python files are syntax-checked with `compileall`; C++ files are compiled indivi
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
-| [2058-concatenation-of-array](https://github.com/KardeniaPoyu/algorithm-practice/tree/main/2058-concatenation-of-array/) | undefined |
+| [1929. Concatenation of Array](https://github.com/KardeniaPoyu/algorithm-practice/tree/main/2058-concatenation-of-array/) | Easy |
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
-| [2058-concatenation-of-array](https://github.com/KardeniaPoyu/algorithm-practice/tree/main/2058-concatenation-of-array/) | undefined |
+| [1929. Concatenation of Array](https://github.com/KardeniaPoyu/algorithm-practice/tree/main/2058-concatenation-of-array/) | Easy |
 <!---LeetCode Topics End-->

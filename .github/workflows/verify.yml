@@ -1,0 +1,33 @@
+name: Verify solutions
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check Python syntax
+        run: python -m compileall -q solutions templates
+
+  cpp:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compile C++ solutions
+        shell: bash
+        run: |
+          mapfile -d '' files < <(find solutions templates -type f -name '*.cpp' -print0)
+          for file in "${files[@]}"; do
+            echo "Compiling $file"
+            g++ -std=c++17 -Wall -Wextra -pedantic "$file" -o /tmp/solution
+          done
+
